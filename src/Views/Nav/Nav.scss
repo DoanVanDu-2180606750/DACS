@@ -1,0 +1,98 @@
+
+nav{  
+  font-size: 20px;
+  color: #000;
+  height: 60px;
+  background-color: #fff;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+.nameweb{
+  color: hotpink;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin-left: 20px;
+  padding-right: 15px;
+  font-size: 30px;
+  border-right: 2px solid black;
+}
+.nameweb img {
+  white-space: nowrap;
+  height: 55px;
+}
+.list{
+  white-space: nowrap;
+  font-size: 15px;
+  display: flex;
+}
+
+.list li{
+  padding: 20px;
+}
+
+.function{
+  padding: 15px;
+  display: flex;
+}
+
+.function li{
+  padding-left: 15px;
+}
+
+.function li a i{
+  font-size: 25px;
+}
+
+.search{
+  background-color  : #2b303b;
+  border-radius: 5px;
+  width: 230px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.ipsearch{
+  width: 200px;
+  height: 30px;
+  background-color  : #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.icon{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+
+.btn{
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  height: 32px;
+  background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+}
